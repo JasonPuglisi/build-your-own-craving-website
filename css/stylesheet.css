@@ -1,0 +1,71 @@
+p, h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Trebuchet, Arial, sans-serif;
+	font-weight: 300;
+}
+
+.pacifico {
+	font-family: Pacifico;
+	font-weight: 400;
+}
+
+.bg {
+	width: auto;
+	background-image: url('../img/bg-mms.jpg');
+	background-position: 50% 0px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.bg.bg-1 {
+	background-image: url('../img/bg-mms.jpg');
+}
+
+.bg.bg-2 {
+	background-image: url('../img/bg-candyCorn.jpg');
+}
+
+.bg.bg-fruit {
+	background-image: url('../img/bg-fruit.jpg');
+}
+
+.container.dark a:not(.button) {
+	color: #0080FF;
+}
+
+.container {
+	padding: 50px 0;
+}
+
+.container.light {
+	background: white;
+	box-shadow: inset 0px 3px 5px #888, inset 0px -3px 5px #888;
+}
+
+.container.dark {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.container.dark, .container.dark h1, .container.dark h2, .container.dark h3, .container.dark h4, .container.dark h5, .container.dark h6, .container.dark .fa {
+	color: white;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.rounded {
+	border-radius: 15px 15px;
+}
+
+.basket {
+	border-radius: 10%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+
+.snack {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
